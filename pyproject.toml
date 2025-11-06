@@ -1,0 +1,10 @@
+[project]
+name = "aqua"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "starlette>=0.48.0",
+    "uvicorn[standard]>=0.37.0",
+]
